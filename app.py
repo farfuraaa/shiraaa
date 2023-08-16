@@ -1,20 +1,6 @@
-import requests
-import streamlit as st
-from streamlit_lottie import st_lottie
-from PIL import Image
+
 import base64
 import streamlit as st
-# from st_clickable_images import clickable_images
-import webbrowser
-import streamlit as st
-import numpy as np
-# import matplotlib.pyplot as plt
-# from matplotlib.animation import FuncAnimation
-# from matplotlib.colors import LinearSegmentedColormap
-import random
-# from streamlit_player import st_player
-# from IPython.display import Audio
-import time
 
 # n_sounds = 6
 # # Define the audio file path
@@ -72,11 +58,8 @@ with st.container():
             # "grafiti.png",
 
         ]
-        titels = [
-            "אומנות",
-            "ציורי קיר",
-            "סדנאות רישום",
-            "גרפיטי"
+        titels = ["sf"
+
         ]
         col1, col2= st.columns(2)
 
