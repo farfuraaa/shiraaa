@@ -27,17 +27,50 @@ def local_css(file_name):
 
 local_css("style/style.css")
 
-# # # ---- LOAD ASSETS ----
-# lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_fcfjwiyb.json")
-# img_contact_form = Image.open("images/yt_contact_form.png")
-# img_lottie_animation = Image.open("images/yt_lottie_animation.png")
+#
+# # ---- HEADER SECTION ----
+# with st.container():
+#     with st.container():
+#         st.write("---")
+#         st.title("Shira Tamari")
+#         st.write("---")
+#
+# # art
+#
+# # work
+#         urls = [
+#             "https://photos.app.goo.gl/ihT5Sty7Yx3NUsVL8",
+#             "https://photos.app.goo.gl/fuAaCVfaQq6TthMf9",
+#             "https://photos.app.goo.gl/ihT5Sty7Yx3NUsVL8",
+#             "https://photos.app.goo.gl/ihT5Sty7Yx3NUsVL8",
+#         ]
+#
+#         image_paths = [
+#             "art.png",
+#             "wall.png",
+#             "wall.png",
+#             "wall.png",
+#             # "rishum.png",
+#             # "grafiti.png",
+#
+#         ]
+#         titels = ["sf"
+#
+#         ]
+#         col1, col2= st.columns(2)
+#
+#         for url, path, titels, col in zip(urls, image_paths,titels, [col1,col2,col2,col2]):
+#             with col:
+#                 st.write(titels)
+#                 link = f'<a href="{url}" target="_blank"><img src="data:image/jpeg;base64,{base64.b64encode(open(path, "rb").read()).decode()}" alt="Description of the image" width="222"></a>'
+#                 st.markdown(link, unsafe_allow_html=True)
+#
+# with st.container():
+#     with st.container():
+#         st.write("---")
+#         st.write("054-8000524")
+#         st.write("shirgilboatamari@gmail.com")
+#         st.write("---")
+#
 
-# ---- HEADER SECTION ----
-with st.container():
-    with st.container():
-        st.write("---")
-        st.title("Shira Tamari")
-        st.write("---")
-
-# art
 
